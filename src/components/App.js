@@ -7,7 +7,7 @@ const Detail = ()=>{
 
   return(
     <div className='details'>
-      Employee {searchParam.get('id')} named {searchParam.get('name')} work as {searchParam.get('designation')}
+      Employee {searchParam.get('id')} named {searchParam.get('name')} works as {searchParam.get('designation')}
     </div>
   )
 }
